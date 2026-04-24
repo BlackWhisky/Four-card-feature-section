@@ -11,6 +11,28 @@
 
     /* Typography */
 
+        --font-family-poppins: 'Poppins', sans-serif;
+        --font-weight-light: 300;
+        --font-weight-regular: 400;
+        --font-weight-medium: 500;
+        --font-weight-semi-bold: 600;
+        --font-size-13: 0.8125rem;
+        --font-size-15: 0.9375rem;
+        --font-size-20: 1.25rem;
+        --font-size-36: 2.25rem;
+        --line-height-135: 1.35;
+        --line-height-140: 1.40;
+        --line-height-160: 1.60;
+        --letter-spacing-0: 0;
+        --letter-spacing-025: 0.25px;
+
     /* Spacing */
+    
+    --spacing-8: 0.5rem;
+    --spacing-16: 1rem;
+    --spacing-24: 1.5rem;
+    --spacing-32: 2rem;
+    --spacing-40: 2.5rem;
+
 }
 
