@@ -1,13 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
 :root{
     /* Colors */
 
-    --grey-dark: var(#4D4F62);
-    --grey-light: var(#6a7178);
-    --white: var(#ffffff);
-    --red: var(#EA5454);
-    --cyan: var(#44D3D2);
-    --blue: var(#549EF2);
-    --orange: var(#FCAE4A);
+    --grey-dark: #4D4F62;
+    --grey-light: #6a7178;
+    --white: #ffffff;
+    --red: #EA5454;
+    --cyan: #44D3D2;
+    --blue: #549EF2;
+    --orange: #FCAE4A;
 
     /* Typography */
 
@@ -34,5 +36,44 @@
     --spacing-32: 2rem;
     --spacing-40: 2.5rem;
 
+}
+
+body {
+    margin: 0;
+    font-family: var(--font-family-poppins);
+    background-color: var(--white);
+    color: var(--grey-dark);
+}
+
+
+.hero-intro {
+    max-width: 34rem;
+    margin-inline: auto;
+    text-align: center;
+}
+
+.hero-title {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    line-height: 1.35;
+    letter-spacing: 0.016em;
+}
+
+.hero-title-light {
+    font-weight: 300;
+    color: #4d4f62;
+}
+
+.hero-title-strong {
+    font-weight: 600;
+    color: #4d4f62;
+}
+
+.hero-subtitle {
+    margin-top: 1rem;
+    color: #6a7178;
+    font-size: 0.9375rem;
+    line-height: 1.6;
 }
 
