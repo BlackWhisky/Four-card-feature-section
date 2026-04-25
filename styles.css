@@ -45,6 +45,17 @@ body {
     color: var(--grey-dark);
 }
 
+section {
+    border: 1px solid black;
+}
+
+main {
+    display: grid;
+    max-width: 314px;
+    margin-inline: auto;
+    margin-block: var(--spacing-40);
+    gap: 60px;
+}
 
 .hero-intro {
     max-width: 34rem;
@@ -77,3 +88,34 @@ body {
     line-height: 1.6;
 }
 
+.card-divider {
+    display: grid;
+    grid-template: 1fr 1fr 1fr 1fr / 1fr;
+    gap: var(--spacing-32);
+}
+
+.card-1{
+    position: relative;
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0px 15px 30px var(--grey-light);
+}
+.card-1::before{
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 4px;
+        background-color: var(--cyan);
+        border-radius: 8px 8px 0 0;
+    }
+.card-2{
+    background-color: var(--cyan);
+}
+.card-3{
+    background-color: var(--blue);
+}
+.card-4{
+    background-color: var(--orange);
+}
