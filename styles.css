@@ -161,3 +161,61 @@ main {
     line-height: var(--line-height-140);
     color: var(--grey-light);
 }
+@media(min-width: 48rem) {
+    main {
+        max-width: 660px;
+    }
+    .card-divider {
+      grid-template: repeat(3, 1fr) / repeat(4, 1fr);
+    }  
+
+    .card--style{
+        max-height: 250px;
+    }
+    .card-1{
+        grid-column: 1 / span 2;
+        grid-row: 2 / span 1;
+    }
+    .card-2{
+        grid-column: 2 / span 2;
+        grid-row: 1 / span 1;
+    }
+    .card-3{
+        grid-column: 3 / span 2;
+        grid-row: 2 / span 1;
+    }
+    .card-4{
+        grid-column: 2 / span 2;
+        grid-row: 3 / span 1;
+    }
+}
+
+@media(min-width: 64rem) {
+    main {
+        max-width: 1114px;
+    }
+
+    .card-divider {
+    grid-template: repeat(4, 1fr) / repeat(3, 1fr);
+    }  
+
+    .card--style{
+        max-height: 250px;
+    }
+    .card-1{
+        grid-column: 1 / span 1;
+        grid-row: 2 / span 2;
+    }
+    .card-2{
+        grid-column: 2 / span 1;
+        grid-row: 1 / span 2;
+    }
+    .card-3{
+        grid-column: 3 / span 1;
+        grid-row: 2 / span 2;
+    }
+    .card-4{
+    grid-column: 2 / span 1;
+    grid-row: 3 / span 2;
+    }
+}
